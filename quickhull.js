@@ -66,11 +66,7 @@ QuickHull = function(points)
 	var acceptedPoints = [];
 	if(points.length==3)
 	{
-		for(var i=0;i<points.length;i++)
-			acceptedPoints.push(points[i]);
-		acceptedPoints.push(points[0]);
-		return (acceptedPoints);
-		
+		return points;
 	}
 	else if(points.length<3)
 	{
