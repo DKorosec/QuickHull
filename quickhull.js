@@ -1,7 +1,7 @@
 /*
   var output = QuickHull(input);
   input  = is an array of objects that must have .x and .y property!
-  Output = array of points that are on the convex hull
+  Output = array of points that are on the convex hull (input array with removed non convex points)
 */
 
 (function(){ 
